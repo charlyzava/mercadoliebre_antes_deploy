@@ -4,6 +4,29 @@
     box-sizing: border-box; /*Ver qué hacía ésto*/
 }
 
+.caja-registro{
+    background-color: rgb(184, 176, 176);
+    border: #464242 dotted 2px;
+    width: 450px;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.login {
+    height: 200px;
+    align-items:flex-end;
+}
+
+.caja-login{
+    background-color: rgb(184, 176, 176);
+    border: #464242 dotted 2px;
+    width: 450px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
@@ -151,7 +174,7 @@ h3,
 }
 
 .description{
-    display: none;
+/* decía display:none para ocultar */
     margin-top: 20px;
 }
 
